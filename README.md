@@ -5,6 +5,8 @@ When you run the program, you can optionally provide a file path as a runtime ar
 
 The program requires that the working directory be the main project folder (the one with src, datasets, and out sub-folders). Use 'javac -d out \*.java' to compile and use 'java -cp out autocomplete.Tester' to run. This means that all paths passed to the program are relative to the main project folder. Sorry if that's all really obvious, I'm not sure if that's the normal way to compile and run java code.
 
+![A screenshot of the program](images/example.png)
+
 ## Datasets
 The datasets folder contains a number of word lists. Each file is a newline delimited list of English words where each word consists of only lowercase letters. None of the words contains any digits or punctuation.
 
